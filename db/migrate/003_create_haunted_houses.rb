@@ -7,7 +7,10 @@ class HauntedHouses
       t.string :theme 
       t.integer :price 
       t.boolean :family_friendly
-      t.
+      t.datetime :opening_date 
+      t.datetime :closing_date
+      t.string :long_description
+      
     end
     
   end 
